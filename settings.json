@@ -1,0 +1,72 @@
+{
+	"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+	"editor.wordWrap": "on",
+	"files.associations": {
+		"*.twig": "html"
+	},
+	"editor.dragAndDrop": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.detectIndentation": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"twig-language.tabSize": 2,
+	"editor.renderIndentGuides": false,
+	"editor.autoIndent": false,
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.trimAutoWhitespace": true,
+	"editor.useTabStops": false,
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.parameterHints": true,
+	"workbench.editor.openPositioning": "last",
+
+	// stylelint
+	"css.validate": false,
+	"less.validate": false,
+	"stylelint.configOverrides": {
+		"ignoreFiles": "**/scss/**",
+	},
+	//beautify 
+	"beautify.config": {
+		"indent_with_tabs": true,
+		"newline_between_rules": false,
+		"selector_separator_newline": true,
+		"space_around_combinator": true,
+		"end_with_newline": true,
+	},
+	// ccscomb
+	"csscomb.formatOnSave": false,
+	"csscomb.syntaxAssociations": {
+		"postcss": "scss"
+	},
+	"csscomb.preset": "C:/xampp/htdocs/Projects/.vscode/.combconfig.json",
+
+	// scssLint
+	"scss.lint.boxModel": "ignore",
+	"scss.lint.duplicateProperties": "warning",
+	"scss.lint.idSelector": "warning",
+	"scss.lint.important": "warning",
+	"scss.lint.importStatement": "warning",
+	"scss.lint.universalSelector": "warning",
+	"workbench.iconTheme": "vscode-icons",
+	"guides.enabled": true,
+	"guides.active.color.dark": "#84FFff",
+	"guides.active.color.light": "rgba(200, 100, 100, 1)",
+	"guides.normal.color.dark": "rgba(100, 100, 100, 0.55)",
+	"guides.normal.color.light": "rgba(220, 220, 220, 0.75)",
+
+	// sftp
+	"sftp.printDebugLog": true,
+
+	// breadcrumbs
+	"breadcrumbs.enabled": true,
+	
+	// intellisense
+	"html-css-class-completion.includeGlobPattern": "**/*.{css,html}",
+	"workbench.tree.horizontalScrolling": true,
+	"workbench.editor.showTabs": true,
+	"workbench.colorTheme": "One Dark Pro"
+}
